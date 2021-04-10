@@ -1,0 +1,41 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/self/self",
+    "pages/demos/demos",
+    "pages/demos/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "健康系统毕业设计",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "健康世界",
+        "iconPath": "./images/bg.png",
+        "selectedIconPath": "./images/bg-active.png"
+      },
+      {
+        "pagePath": "pages/demos/demos",
+        "text": "项目",
+        "iconPath": "./images/demos.png",
+        "selectedIconPath": "./images/demos-active.png"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "text": "我的",
+        "iconPath": "./images/contact.png",
+        "selectedIconPath": "./images/contact-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
